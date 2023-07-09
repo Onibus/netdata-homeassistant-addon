@@ -1,9 +1,9 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Netdata
+name: Netdata TEST
 version: "2.2.2"
 slug: netdata
 description: Netdata TEST - Monitor everything in real time
-url: "https://github.com/cryorig/netdata-homeassistant-addon"
+url: "https://github.com/Onibus/netdata-homeassistant-addon"
 arch:
   - armhf
   - armv7
