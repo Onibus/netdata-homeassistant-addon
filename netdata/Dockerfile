@@ -15,5 +15,5 @@ RUN curl https://my-netdata.io/kickstart.sh > /tmp/netdata-kickstart.sh && \
 
 # Copy data for add-on
 COPY rootfs /
-
+RUN chmod +x /usr/bin/run.sh
 CMD [ "/usr/bin/run.sh" ]
